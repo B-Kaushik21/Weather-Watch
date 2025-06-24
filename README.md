@@ -26,40 +26,6 @@ A simple React-based weather dashboard that fetches real-time weather data using
 ---
 
 ## 📂 Project Structure
-ChatGPT said:
-Here's a complete README.md file for your Weather Dashboard GitHub repository. It includes setup instructions, usage, project structure, and a demo-ready format.
-
-📄 README.md
-md
-Copy code
-# 🌦️ Weather Dashboard
-
-A simple React-based weather dashboard that fetches real-time weather data using the OpenWeatherMap API.
-
----
-
-## ✨ Features
-
-- Search any city in the world
-- View current:
-  - Temperature
-  - Humidity
-  - Weather condition (e.g., sunny, rainy)
-- Responsive and lightweight design
-- Weather icon based on live condition
-
----
-
-## 🔧 Tech Stack
-
-- React (Vite)
-- JavaScript (ES6+)
-- OpenWeatherMap API
-- CSS
-
----
-
-## 📂 Project Structure
 
 weather-dashboard/
 ├── .env
