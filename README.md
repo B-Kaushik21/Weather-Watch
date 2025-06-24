@@ -1,12 +1,95 @@
-# React + Vite
+# 🌦️ Weather Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React-based weather dashboard that fetches real-time weather data using the OpenWeatherMap API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- Search any city in the world
+- View current:
+  - Temperature
+  - Humidity
+  - Weather condition (e.g., sunny, rainy)
+- Responsive and lightweight design
+- Weather icon based on live condition
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🔧 Tech Stack
+
+- React (Vite)
+- JavaScript (ES6+)
+- OpenWeatherMap API
+- CSS
+
+---
+
+## 📂 Project Structure
+ChatGPT said:
+Here's a complete README.md file for your Weather Dashboard GitHub repository. It includes setup instructions, usage, project structure, and a demo-ready format.
+
+📄 README.md
+md
+Copy code
+# 🌦️ Weather Dashboard
+
+A simple React-based weather dashboard that fetches real-time weather data using the OpenWeatherMap API.
+
+---
+
+## ✨ Features
+
+- Search any city in the world
+- View current:
+  - Temperature
+  - Humidity
+  - Weather condition (e.g., sunny, rainy)
+- Responsive and lightweight design
+- Weather icon based on live condition
+
+---
+
+## 🔧 Tech Stack
+
+- React (Vite)
+- JavaScript (ES6+)
+- OpenWeatherMap API
+- CSS
+
+---
+
+## 📂 Project Structure
+
+weather-dashboard/
+├── .env
+├── public/
+│ └── index.html
+├── src/
+│ ├── App.jsx
+│ ├── WeatherCard.jsx
+│ └── main.jsx
+├── package.json
+└── README.md
+
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+git clone https://github.com/your-username/weather-dashboard.git
+cd weather-dashboard
+
+### 2. Install Dependencies
+npm install
+
+### 3. Setup OpenWeatherMap API Key
+Create a free account at openweathermap.org
+Go to your profile → API keys
+Copy your API key
+Create a .env file in the root
+
+### 4. Run the App
+npm run dev
