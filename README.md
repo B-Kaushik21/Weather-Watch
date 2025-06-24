@@ -19,25 +19,9 @@ A simple React-based weather dashboard that fetches real-time weather data using
 ## 🔧 Tech Stack
 
 - React (Vite)
-- JavaScript (ES6+)
+- JavaScript 
 - OpenWeatherMap API
 - CSS
-
----
-
-## 📂 Project Structure
-
-weather-dashboard/
-├── .env
-├── public/
-│ └── index.html
-├── src/
-│ ├── App.jsx
-│ ├── WeatherCard.jsx
-│ └── main.jsx
-├── package.json
-└── README.md
-
 
 ---
 
